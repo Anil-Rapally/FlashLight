@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Gradient background -->
+    <item>
+        <shape android:shape="oval">
+            <gradient
+                android:type="radial"
+                android:gradientRadius="150%p"
+                android:startColor="#4CAF50"
+                android:endColor="#2196F3" />
+        </shape>
+    </item>
+    <!-- Flashlight icon overlay -->
+    <item
+        android:drawable="@drawable/ic_flashlight"
+        android:gravity="center"
+        android:width="48dp"
+        android:height="48dp" />
+</layer-list>
+
